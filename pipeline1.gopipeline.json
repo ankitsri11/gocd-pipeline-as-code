@@ -29,9 +29,10 @@
           "tasks": [
             {
               "type": "exec",
-              "command": "echo",
+              "command": "bash",
               "arguments": [
-                "$ENV_VAR_1"
+                "-c",
+                "echo $ENV_VAR_1"
                 ]
             }
           ]
