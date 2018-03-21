@@ -1,8 +1,8 @@
 {
   "format_version" : 1,
-  "name": "Pipeline1",
+  "name": "firstpipe",
   "environment_variables": [],
-  "group" : "pipeline-as-code",
+  "group" : "configrepo-example",
   "materials": [
     {
       "url": "https://github.com/ankitsri11/gocd-pipeline-as-code.git",
@@ -28,15 +28,7 @@
           "timeout": 0,
           "tasks": [
             {
-              "type": "exec",
-              "command": "ls" 
-            },
-             {
-              "type": "exec",
-              "command": "echo",
-              "arguments": [
-                "$ENV_VAR_1",
-              ]
+              "type": "rake"
             }
           ]
         }
@@ -44,3 +36,4 @@
     }
   ]
 }
+
