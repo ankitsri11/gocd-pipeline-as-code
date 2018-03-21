@@ -32,7 +32,7 @@
               "command": "bash",
               "arguments": [
                 "-c",
-                "echo $ENV_VAR_1"
+                "echo $ENV_VAR_2"
                 ]
             }
           ]
