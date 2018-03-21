@@ -28,7 +28,8 @@
           "timeout": 0,
           "tasks": [
             {
-              "type": "rake"
+              "type": "exec",
+              "command": "ls"
             }
           ]
         }
