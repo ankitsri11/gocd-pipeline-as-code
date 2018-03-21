@@ -29,7 +29,10 @@
           "tasks": [
             {
               "type": "exec",
-              "command": "ls"
+              "command": "echo",
+              "arguments": [
+                "$ENV_VAR_1"
+                ]
             }
           ]
         }
