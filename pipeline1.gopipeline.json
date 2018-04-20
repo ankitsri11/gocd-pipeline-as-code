@@ -29,7 +29,7 @@
           "tasks": [
             {
               "type": "exec",
-              "command": "bash",
+              "command": "/bin/bash",
               "arguments": [
                 "-c",
                 "echo $ENV_VAR_2"
