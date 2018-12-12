@@ -9,7 +9,7 @@
   "group" : "Build_and_Deploy",
   "materials": [
     {
-      "url": "http://gitserver/git/repo1.git",
+      "url": "https://github.com/ankitsri11/gocd-pipeline-as-code.git",
       "type": "git"
     }
   ],
