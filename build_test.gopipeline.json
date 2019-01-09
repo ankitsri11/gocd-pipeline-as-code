@@ -11,7 +11,13 @@
     {
       "url": "https://github.com/ankitsri11/gocd-pipeline-as-code.git",
       "type": "git"
-    }
+    },
+    {
+  "scm_id": "4937e2fe-be38-46ae-a8cc-65e38c68c15e",
+  "destination": "destinationDir",
+  "name": "pull-request",
+  "type": "plugin"
+}
   ],
   "stages": [
     {
