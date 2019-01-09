@@ -9,6 +9,7 @@
   "group" : "Pipeline_as_Code",
   "materials": [
     {
+      "name": "master"
       "url": "https://github.com/ankitsri11/gocd-pipeline-as-code.git",
       "type": "git",
       "destination": "destinationDir2"
