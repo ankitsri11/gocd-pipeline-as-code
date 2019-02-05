@@ -1,0 +1,52 @@
+
+{
+  "format_version" : 1,
+  "name": "build_test",
+  "environment_variables": [
+    {
+      "name": "TEST_NUM"
+    }
+                           ],
+  "group" : "Pipeline_as_Code",
+  "materials": [
+    {
+      "name": "master",
+      "url": "https://github.com/ankitsri11/gocd-pipeline-as-code.git",
+      "type": "git",
+      "destination": "destinationDir2"
+    },
+    {
+  "scm_id": "4937e2fe-be38-46ae-a8cc-65e38c68c15e",
+  "destination": "destinationDir",
+  "name": "pull-request",
+  "type": "plugin"
+}
+  ],
+  "stages": [
+    {
+      "name": "build_test_build_stage",
+      "fetch_materials": true,
+      "never_cleanup_artifacts": false,
+      "clean_working_directory": false,
+      "environment_variables": [],
+      "jobs": [
+        {
+          "name": "build_test_job",
+          "environment_variables": [],
+          "tabs": [],
+          "resources": [],
+          "artifacts": [],
+          "properties": [],
+          "run_instance_count": null,
+          "timeout": 0,
+          "tasks": [
+            {
+              "type": "exec",
+              "command": "ls"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
