@@ -1,7 +1,7 @@
 
 {
   "format_version" : 1,
-  "name": "build_test",
+  "name": "build_test1",
   "environment_variables": [
     {
       "name": "TEST_NUM"
