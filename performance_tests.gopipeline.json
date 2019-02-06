@@ -1,6 +1,6 @@
 {
   "format_version" : 1,
-  "name": "performance_tests1",
+  "name": "performance_tests",
   "environment_variables": [
     {
       "name": "TEST_NUM"
