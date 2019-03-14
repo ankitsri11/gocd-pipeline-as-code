@@ -9,7 +9,7 @@
   "group" : "Pipeline_as_Code",
   "materials": [
     {
-      "pipeline": "build_test",
+      "pipeline": "build_tests",
       "stage": "build_test_build_stage",
       "name": "dependency_1",
       "type": "dependency"
