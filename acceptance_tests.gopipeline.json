@@ -32,6 +32,7 @@
           "properties": [],
           "run_instance_count": null,
           "timeout": 0,
+          "elastic_profile_id": "demo-app",
           "tasks": [
             {
               "type": "exec",
