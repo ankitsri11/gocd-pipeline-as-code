@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "name": "deploy",
+  "name": "deployment",
   "environment_variables": [
     {
       "name": "TEST_NUM"
@@ -38,6 +38,7 @@
           "properties": [],
           "run_instance_count": null,
           "timeout": 0,
+          "elastic_profile_id": "demo-app",
           "tasks": [
             {
               "type": "exec",
