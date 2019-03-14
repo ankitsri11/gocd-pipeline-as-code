@@ -9,13 +9,13 @@
   "group": "Pipeline_as_Code",
   "materials": [
     {
-      "pipeline": "acceptance_tests",
+      "pipeline": "acceptance_test",
       "stage": "acceptance_tests_build_stage",
       "name": "dependency_3",
       "type": "dependency"
     },
     {
-      "pipeline": "performance_tests",
+      "pipeline": "performance_test",
       "stage": "performance_tests_build_stage",
       "name": "dependency_4",
       "type": "dependency"
