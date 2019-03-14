@@ -1,6 +1,6 @@
 {
   "format_version" : 1,
-  "name": "performance_tests",
+  "name": "performance_test",
   "environment_variables": [
     {
       "name": "TEST_NUM"
@@ -32,6 +32,7 @@
           "properties": [],
           "run_instance_count": null,
           "timeout": 0,
+          "elastic_profile_id": "demo-app",
           "tasks": [
             {
               "type": "exec",
